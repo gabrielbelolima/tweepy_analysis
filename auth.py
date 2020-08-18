@@ -7,8 +7,3 @@ def auth():
     global tt
     tt = tweepy.API(auth, wait_on_rate_limit=True)
     return tt
-
-
-def teste():
-	print('funcao ok!')
-
